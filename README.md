@@ -1,29 +1,29 @@
 # 🚀 Terminal / Retro Temalı Kişisel Portfolyo & İş Takip Sistemi (CRUD)
 
-[cite_start]Bu proje, modern web geliştirme prensipleri ve hiyerarşik veri yönetimi kavramlarını harmanlayarak geliştirilmiş, terminal/retro temalı dinamik bir kişisel portfolyo ve proje/iş takip otomasyonudur[cite: 2, 4]. [cite_start]Kullanıcıların ana projelerini listelemesine, yeni projeler eklemesine, mevcut kayıtları güncellemesine ve silmesine (CRUD) olanak tanır[cite: 20, 21, 22, 23]. Ayrıca her projenin altında dinamik alt adımlar (One-to-Many ilişkisi) oluşturulabilmekte ve bu adımlar terminal tarzında tamamlandı olarak işaretlenebilmektedir.
+Bu proje, modern web geliştirme prensipleri ve hiyerarşik veri yönetimi kavramlarını harmanlayarak geliştirilmiş, terminal/retro temalı dinamik bir kişisel portfolyo ve proje/iş takip otomasyonudur. Kullanıcıların ana projelerini listelemesine, yeni projeler eklemesine, mevcut kayıtları güncellemesine ve silmesine (CRUD) olanak tanır. Ayrıca her projenin altında dinamik alt adımlar (One-to-Many ilişkisi) oluşturulabilmekte ve bu adımlar terminal tarzında tamamlandı olarak işaretlenebilmektedir.
 
 ---
 
 ## 🎯 Proje Özellikleri & Karşılanan Kriterler
 
-[cite_start]Eğitim programı çerçevesinde istenen tüm yönerge adımları ve teknik çıktılar proje kapsamında eksiksiz olarak uygulanmıştır[cite: 2, 3]:
+Eğitim programı çerçevesinde istenen tüm yönerge adımları ve teknik çıktılar proje kapsamında eksiksiz olarak uygulanmıştır:
 
-* [cite_start]**Modern JavaScript Framework'ü:** Proje, bileşen tabanlı (Component-based) mimari kullanılarak **ReactJS** kütüphanesi ile geliştirilmiştir[cite: 6, 19].
-* [cite_start]**Hiyerarşik Dosya Ağacı Yapısı:** Projenin kaynak kodları, modülerliği ve sürdürülebilirliği artırmak adına `components` ve `pages` klasörleri altında yapılandırılmıştır[cite: 14].
+* **Modern JavaScript Framework'ü:** Proje, bileşen tabanlı (Component-based) mimari kullanılarak **ReactJS** kütüphanesi ile geliştirilmiştir.
+* **Hiyerarşik Dosya Ağacı Yapısı:** Projenin kaynak kodları, modülerliği ve sürdürülebilirliği artırmak adına `components` ve `pages` klasörleri altında yapılandırılmıştır.
 * **Eksiksiz CRUD İşlemleri:** Sistem üzerinde ana projeler için;
-    * [cite_start]**Create (Ekleme):** Yeni proje/kategori logu ekleme[cite: 20],
-    * [cite_start]**Read (Listeleme):** Mevcut tüm aktif projeleri ve alt adımlarını dinamik listeleme[cite: 21],
-    * [cite_start]**Update (Güncelleme):** Mevcut proje başlıklarını düzenleme[cite: 22],
-    * [cite_start]**Delete (Silme):** Projeleri sistemden kaldırma işlemleri tıkır tıkır çalışmaktadır[cite: 23].
+    * **Create (Ekleme):** Yeni proje/kategori logu ekleme,
+    * **Read (Listeleme):** Mevcut tüm aktif projeleri ve alt adımlarını dinamik listeleme,
+    * **Update (Güncelleme):** Mevcut proje başlıklarını düzenleme,
+    * **Delete (Silme):** Projeleri sistemden kaldırma işlemleri tıkır tıkır çalışmaktadır.
 * **Gelişmiş Alt Görev (Sub-task) Yönetimi:** Her ana projenin yanında bulunan `▶ / ▼` ikonları ile hiyerarşik alt adımlar genişletilebilir, yeni adımlar eklenebilir, silinebilir veya tamamlandı `[✓]` olarak işaretlenebilir.
-* [cite_start]**Kalıcı Veri Yönetimi (LocalStorage):** Tarayıcı hafızası (`LocalStorage`) entegrasyonu sayesinde, eklenen veya güncellenen tüm veriler sayfa yenilense dahi güvenle korunur[cite: 5].
-* [cite_start]**Özgün Retro Tasarım (Tailwind CSS):** Görsel tasarım, klasik terminal arayüzlerinden esinlenerek **Tailwind CSS** kütüphanesiyle neon renk paleti, monospace fontlar ve özel kesikli alt çizgi efektleri kullanılarak pure retro konseptte hazırlanmıştır[cite: 16].
+* **Kalıcı Veri Yönetimi (LocalStorage):** Tarayıcı hafızası (`LocalStorage`) entegrasyonu sayesinde, eklenen veya güncellenen tüm veriler sayfa yenilense dahi güvenle korunur.
+* **Özgün Retro Tasarım (Tailwind CSS):** Görsel tasarım, klasik terminal arayüzlerinden esinlenerek **Tailwind CSS** kütüphanesiyle neon renk paleti, monospace fontlar ve özel kesikli alt çizgi efektleri kullanılarak pure retro konseptte hazırlanmıştır.
 
 ---
 
 ## 📂 Proje Dosya Yapısı
 
-[cite_start]Yönergeye uygun olarak kurgulanan modüler klasör ağacı şu şekildedir[cite: 14]:
+Yönergeye uygun olarak kurgulanan modüler klasör ağacı şu şekildedir:
 
 ```text
 retro-portfolyo/
@@ -75,13 +75,13 @@ Proje, tarayıcıların yerel güvenlik politikalarına (CORS) takılmadan ve he
 
 ## 📈 Proje Çıktıları & Kazanımlar
 
-* HTML, CSS ve JavaScript temellerini bütüncül bir gerçek hayat senaryosunda uygulama deneyimi kazanıldı.
+* HTML, CSS ve JavaScript temellerini gerçek hayat senaryosunda uygulama deneyimi.
 
 
 * ReactJS bileşen mimarisi, state yönetimi ve asenkron veri akışları (LocalStorage) pekiştirildi.
 
 
-* Modüler dosya ağacı oluşturma ve kod kalitesini artırma pratikleri geliştirildi.
+* Modüler dosya ağacı oluşturma ve kod kalitesini artırma pratikleri.
 
 
 * Proje klasörleri Git standartlarına uygun olarak yapılandırılarak başarıyla GitHub platformuna aktarıldı.
