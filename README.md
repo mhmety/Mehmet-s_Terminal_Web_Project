@@ -70,6 +70,7 @@ Proje, tarayıcıların yerel güvenlik politikalarına (CORS) takılmadan ve he
 1. Bu repository'yi bilgisayarınıza indirin veya `git clone` ile kopyalayın.
 2. Projenin ana dizininde bulunan `index.html` dosyasına sağ tıklayarak **Live Server** ile veya tarayıcınız üzerinden doğrudan açın.
 3. Proje yerel sunucunuzda (`http://localhost:5500`) anında canlıya geçecektir.
+4. Projeyi hiç indirmeden doğrudan canlı ortamda test etmek için [Netlify Canlı Önizleme](https://teal-souffle-c3b822.netlify.app/) bağlantısını kullanabilirsiniz.
 
 ---
 
